@@ -29,22 +29,21 @@ import { trigger, style, transition, animate,keyframes,query,stagger } from '@an
 })
 export class HomeComponent implements OnInit {
 
-  itemCount: number;
   btnText: string = "Add an Item";
   goalText: string = "My first goal";
-  goals = ["climb mountain", "fish", "quit job"];
+  goals = ["Climb Aconcagua", "Volunteer in Cambodia", "Everest Base Camp Trek again"];
 
   constructor() { }
 
-  ngOnInit() {
-
-      this.itemCount = this.goals.length;
+  getItemCount(){
+    return this.goals.length;
   }
+
+  ngOnInit() {  }
 
   addItem(){
     this.goals.push(this.goalText);
     this.goalText= '';
-    this.itemCount = this.goals.length;
   }
 
   removeItem(i){
