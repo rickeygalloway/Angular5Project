@@ -1,5 +1,4 @@
-Basing project on the following:
-https://www.youtube.com/watch?v=oa9cnWTpqP8
+Basing project on the following: https://www.youtube.com/watch?v=oa9cnWTpqP8
 
 
 # Ng5
