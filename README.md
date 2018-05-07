@@ -1,5 +1,9 @@
 Basing project on the following: https://www.youtube.com/watch?v=oa9cnWTpqP8
 
+Navigate to NG5 Folder in command prompt: ng serve
+
+Deployment to another domain... ng build --prod --base-href="myurl"
+
 
 # Ng5
 
